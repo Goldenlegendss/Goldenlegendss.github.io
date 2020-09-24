@@ -4,9 +4,28 @@
   
     
     <entry>
-      <title>hexo网站搭建</title>
-      <link href="2020/09/21/hexo%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
-      <url>2020/09/21/hexo%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</url>
+      <title>网站资源</title>
+      <link href="2020/09/24/%E7%BD%91%E7%AB%99%E8%B5%84%E6%BA%90/"/>
+      <url>2020/09/24/%E7%BD%91%E7%AB%99%E8%B5%84%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<h5 id="字体库"><a href="#字体库" class="headerlink" title="字体库"></a>字体库</h5><ul><li><a href="https://icomoon.io/app/">https://icomoon.io/app/</a></li><li><a href="https://www.fontsquirrel.com/">https://www.fontsquirrel.com</a></li><li><a href="https://www.google.com/fonts/">https://www.google.com/fonts/</a></li></ul><h5 id="js控件"><a href="#js控件" class="headerlink" title="js控件"></a>js控件</h5><ul><li>时间格式化控件 moment</li><li>短信验证码 容联 云通讯</li><li>拦截ajax请求 mockjs</li><li>外卖组件 elementui</li><li>滚动条 bestscroll</li></ul><p>操作系统</p><p>​    <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 网站资源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>javaScript</title>
+      <link href="2020/09/22/javaScript/"/>
+      <url>2020/09/22/javaScript/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -17,27 +36,17 @@
     
     
     <entry>
-      <title></title>
-      <link href="2020/09/20/My-New-Post/"/>
-      <url>2020/09/20/My-New-Post/</url>
+      <title>vue使用</title>
+      <link href="2020/09/22/vue%E4%BD%BF%E7%94%A8/"/>
+      <url>2020/09/22/vue%E4%BD%BF%E7%94%A8/</url>
       
-        <content type="html"><![CDATA[<p>琼山吃饭了</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h3><h5 id="1-全局组件注册"><a href="#1-全局组件注册" class="headerlink" title="1.全局组件注册"></a>1.全局组件注册</h5><pre class=" language-javascr"><code class="language-javascr"><template id="comonent">    <h1>hello</h1></template>Vue.component("one",&#123;    template:"#component"&#125;)//Vue.component（"组件名","模板"），使用时直接将组件名作为标签使用。//直接使用标签需要在vue控制的范围内new vue(&#123;el:"#app"render:function(createElement)&#123;    return createElement("one");//替换原来的app为组件&#125;&#125;)</code></pre><h5 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h5>]]></content>
       
       
       
         <tags>
             
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-            <tag> 标签3 </tag>
-            
-            <tag> 标签4 </tag>
-            
-            <tag> 标签5 </tag>
-            
-            <tag> 标签6 </tag>
+            <tag> vue </tag>
             
         </tags>
       
@@ -46,25 +55,38 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="2019/06/28/hello-world/"/>
-      <url>2019/06/28/hello-world/</url>
+      <title>正则表达式</title>
+      <link href="2020/09/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+      <url>2020/09/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Typora快捷键"><a href="#Typora快捷键" class="headerlink" title="Typora快捷键"></a>Typora快捷键</h2><p>起风的日子里，抬头遥望远方，远方即使家乡</p><table><thead><tr><th>快捷键</th><th>作用</th><th>快捷键</th><th>作用</th></tr></thead><tbody><tr><td>Ctrl+1</td><td>一阶标题</td><td>Ctrl+B</td><td>字体加粗</td></tr><tr><td>Ctrl+2</td><td>二阶标题</td><td>Ctrl+I</td><td>字体倾斜</td></tr><tr><td>Ctrl+3</td><td>三阶标题</td><td>Ctrl+U</td><td>下划线</td></tr><tr><td>Ctrl+4</td><td>四阶标题</td><td>Ctrl+Home</td><td>返回Typora顶部</td></tr><tr><td>Ctrl+5</td><td>五阶标题</td><td>Ctrl+End</td><td>返回Typora底部</td></tr><tr><td>Ctrl+6</td><td>六阶标题</td><td>Ctrl+T</td><td>创建表格</td></tr><tr><td>Ctrl+L</td><td>选中某句话</td><td>Ctrl+K</td><td>创建超链接</td></tr><tr><td>Ctrl+D</td><td>选中某个单词</td><td>Ctrl+F</td><td>搜索</td></tr><tr><td>Ctrl+E</td><td>选中相同格式的文字</td><td>Ctrl+H</td><td>搜索并替换</td></tr><tr><td>Alt+Shift+5</td><td>删除线</td><td>Ctrl+Shift+I</td><td>插入图片</td></tr><tr><td>ctrl+enter</td><td>表格增加一行</td><td></td><td></td></tr></tbody></table><h3 id="1-1元字符"><a href="#1-1元字符" class="headerlink" title="1.1元字符"></a>1.1元字符</h3><p><strong>“^”</strong> ：^会匹配行或者字符串的起始位置，有时还会匹配整个文档的起始位置。 </p><p> <strong>“$”</strong>  ：$会匹配行或字符串的结尾</p><p><strong>“\b”</strong> :不会消耗任何字符只匹配一个位置，常用于匹配单词边界 如 我想从字符串中”This is Regex”匹配单独的单词 “is” 正则就要写成 “\bis\b”  </p><p>　　  \b 不会匹配is 两边的字符，但它会识别is 两边是否为单词的边界 </p><p> <strong>“\d”</strong>: 匹配数字，</p><p> **”\w”**：匹配字母，数字，下划线.</p><p>**”\s”**：匹配空格 </p><p> <strong>“[abc]”</strong>: 字符组  匹配包含括号内元素的字符 </p><h3 id="1-2-几种反义"><a href="#1-2-几种反义" class="headerlink" title="1.2 几种反义"></a>1.2 几种反义</h3><p>   <strong>“**</strong>\W”**   匹配任意不是字母，数字，下划线 的字符</p><p>   <strong>“\S”</strong>   匹配任意不是空白符的字符</p><p>　<strong>“\D”</strong>  匹配任意非数字的字符</p><p>   <strong>“\B”</strong>  匹配不是单词开头或结束的位置</p><p>   <strong>“[^abc]”</strong>  匹配除了abc以外的任意字符</p><h3 id="1-3-量词"><a href="#1-3-量词" class="headerlink" title="1.3  量词"></a>1.3  量词</h3><p>　　先解释关于量词所涉及到的重要的三个概念</p><p>​    贪婪(贪心) 如”*”字符 贪婪量词会首先匹配整个字符串，尝试匹配时，它会选定尽可能多的内容，如果  失败则回退一个字符，然后再次尝试回退的过程就叫做回溯，它会每次回退一个字符，直到找到匹配的内容或者没有字符可以回退。相比下面两种贪婪量词对资源的消耗是最大的，</p><p>   懒惰(勉强) 如 “?”  懒惰量词使用另一种方式匹配，它从目标的起始位置开始尝试匹配，每次检查一个字符，并寻找它要匹配的内容，如此循环直到字符结尾处。</p><p>   占有  如”+” 占有量词会覆盖事个目标字符串，然后尝试寻找匹配内容 ，但它只尝试一次，不会回溯，就好比先抓一把石头，然后从石头中挑出黄金</p><p>​     <strong>“*“(贪婪)</strong>   重复零次或更多</p><p>　　　  例如”aaaaaaaa” 匹配字符串中所有的a  正则： “a*”   会出到所有的字符”a”</p><p>​     <strong>“+”(懒惰)</strong>   重复一次或更多次</p><p>　　     例如”aaaaaaaa” 匹配字符串中所有的a  正则： “a+”  会取到字符中所有的a字符，  “a+”与”a*”不同在于”+”至少是一次而”*” 可以是0次，</p><p>　　     稍后会与”?”字符结合来体现这种区别</p><p>​     <strong>“?”(占有)</strong>   重复零次或一次</p><p>　　     例如”aaaaaaaa” 匹配字符串中的a 正则 ： “a?” 只会匹配一次，也就是结果只是单个字符a</p><p>　  <strong>“{n}”</strong>  重复n次</p><p>　  <strong>“{n,m}”</strong>  重复n到m次</p><p>​     <strong>“{n,}”</strong>  重复n次或更多次</p><h3 id="1-4懒惰限定符"><a href="#1-4懒惰限定符" class="headerlink" title="1.4懒惰限定符"></a>1.4懒惰限定符</h3><p>　　<strong>“*?”</strong>   重复任意次，但尽可能少重复 </p><p>　　    如 “acbacb”  正则  “a.*?b” 只会取到第一个”acb” 原本可以全部取到但加了限定符后，只会匹配尽可能少的字符 ，而”acbacb”最少字符的结果就是”acb” </p><p>　　<strong>“+?”</strong>  重复1次或更多次，但尽可能少重复</p><p>　　   与上面一样，只是至少要重复1次</p><p>　　<strong>“??”</strong>  重复0次或1次，但尽可能少重复</p><p>　　    如 “aaacb” 正则 “a.??b” 只会取到最后的三个字符”acb”</p><p>　　<strong>“{n,m}?”</strong>  重复n到m次，但尽可能少重复</p><p>​          如 “aaaaaaaa”  正则 “a{0,m}” 因为最少是0次所以取到结果为空</p><p>　　<strong>“{n,}?”</strong>    重复n次以上，但尽可能少重复</p><p>​          如 “aaaaaaa”  正则 “a{1,}” 最少是1次所以取到结果为 “a”</p><h3 id="1-5捕获分组"><a href="#1-5捕获分组" class="headerlink" title="1.5捕获分组"></a>1.5捕获分组</h3><p>　　先了解在正则中捕获分组的概念，其实就是一个括号内的内容 如 “(\d)\d” 而”(\d)”  这就是一个捕获分组，可以对捕获分组进行 后向引用 (如果后而有相同的内容则可以直接引用前面定义的捕获组，以简化表达式) 如(\d)\d\1  这里的”\1”就是对”(\d)”的后向引用</p><p>那捕获分组有什么用呢看个例子就知道了</p><p>如  “zery zery” 正则 \b(\w+)\b\s\1\b 所以这里的”\1”所捕获到的字符也是 与(\w+)一样的”zery”，为了让组名更有意义，组名是可以自定义名字的</p><p>“\b(?<name>\w+)\b\s\k<name>\b” 用”?<name>“就可以自定义组名了而要后向引用组时要记得写成 “\k<name>“;自定义组名后,捕获组中匹配到的值就会保存在定义的组名里</p><p>下面列出捕获分组常有的用法</p><p><strong>“(exp)”</strong>    匹配exp,并捕获文本到自动命名的组里</p><p><strong>“(?<name>exp)”</strong>   匹配exp,并捕获文本到名称为name的组里</p><p><strong>“(?:exp)”</strong>  匹配exp,不捕获匹配的文本，也不给此分组分配组号</p><p>以下为零宽断言</p><p><strong>“(?=exp)”</strong>  匹配exp前面的位置</p><p>　　如 “How are you doing” 正则”(?<txt>.+(?=ing))” 这里取ing前所有的字符，并定义了一个捕获分组名字为 “txt” 而”txt”这个组里的值为”How are you do”;</p><p><strong>“(?&lt;=exp)”</strong>  匹配exp后面的位置</p><p>　　如 “How are you doing” 正则”(?<txt>(?&lt;=How).+)” 这里取”How”之后所有的字符，并定义了一个捕获分组名字为 “txt” 而”txt”这个组里的值为” are you doing”;</p><p><strong>“(?!exp)”</strong>  匹配后面跟的不是exp的位置</p><p>　　如 “123abc” 正则 “\d{3}(?!\d)”匹配3位数字后非数字的结果</p><p><strong>“(?&lt;!exp)”</strong>  匹配前面不是exp的位置</p><p>　　如 “abc123 “ 正则 “(?&lt;![0-9])123” 匹配”123”前面是非数字的结果也可写成”(?!&lt;\d)123”</p><p> 　　  </p><h3 id="1-6正则实战"><a href="#1-6正则实战" class="headerlink" title="1.6正则实战"></a>1.6正则实战</h3><p>\1. 数字：^[0-9]*$</p><p>\2. n位的数字：^\d{n}$</p><p>\3. 至少n位的数字：^\d{n,}$</p><p>\4. m-n位的数字：^\d{m,n}$</p><p>\5. 零和非零开头的数字：^(0|[1-9][0-9]*)$</p><p>\6. 非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$</p><p>\7. 带1-2位小数的正数或负数：^(-)?\d+(.\d{1,2})?$</p><p>\8. 正数、负数、和小数：^(-|+)?\d+(.\d+)?$</p><p>\9. 有两位小数的正实数：^[0-9]+(.[0-9]{2})?$</p><p>\10. 有1~3位小数的正实数：^[0-9]+(.[0-9]{1,3})?$</p><p>\11. 非零的正整数：^[1-9]\d*$ 或 ^([1-9][0-9]<em>){1,3}$ 或 ^+?[1-9][0-9]</em>$</p><p>\12. 非零的负整数：^-[1-9][]0-9”<em>$ 或 ^-[1-9]\d</em>$</p><p>\13. 非负整数：^\d+$ 或 ^[1-9]\d*|0$</p><p>\14. 非正整数：^-[1-9]\d*|0$ 或 ^((-\d+)|(0+))$</p><p>\15. 非负浮点数：^\d+(.\d+)?$ 或 ^[1-9]\d<em>.\d</em>|0.\d*[1-9]\d*|0?.0+|0$</p><p>\16. 非正浮点数：^((-\d+(.\d+)?)|(0+(.0+)?))$ 或 ^(-([1-9]\d<em>.\d</em>|0.\d*[1-9]\d*))|0?.0+|0$</p><p>\17. 正浮点数：^[1-9]\d<em>.\d</em>|0.\d*[1-9]\d*$ 或 ^(([0-9]+.[0-9]<em>[1-9][0-9]</em>)|([0-9]<em>[1-9][0-9]<em>.[0-9]+)|([0-9]</em>[1-9][0-9]</em>))$</p><p>\18. 负浮点数：^-([1-9]\d<em>.\d</em>|0.\d*[1-9]\d*)$ 或 ^(-(([0-9]+.[0-9]<em>[1-9][0-9]</em>)|([0-9]<em>[1-9][0-9]<em>.[0-9]+)|([0-9]</em>[1-9][0-9]</em>)))$</p><p>\19. 浮点数：^(-?\d+)(.\d+)?$ 或 ^-?([1-9]\d<em>.\d</em>|0.\d*[1-9]\d*|0?.0+|0)$</p><h2 id="二、校验字符的表达式"><a href="#二、校验字符的表达式" class="headerlink" title="二、校验字符的表达式"></a>二、校验字符的表达式</h2><p>\1. 汉字：^[\u4e00-\u9fa5]{0,}$</p><p>\2. 英文和数字：^[A-Za-z0-9]+$ 或 ^[A-Za-z0-9]{4,40}$</p><p>\3. 长度为3-20的所有字符：^.{3,20}$</p><p>\4. 由26个英文字母组成的字符串：^[A-Za-z]+$</p><p>\5. 由26个大写英文字母组成的字符串：^[A-Z]+$</p><p>\6. 由26个小写英文字母组成的字符串：^[a-z]+$</p><p>\7. 由数字和26个英文字母组成的字符串：^[A-Za-z0-9]+$</p><p>\8. 由数字、26个英文字母或者下划线组成的字符串：^\w+$ 或 ^\w{3,20}$</p><p>\9. 中文、英文、数字包括下划线：^[\u4E00-\u9FA5A-Za-z0-9_]+$</p><p>\10. 中文、英文、数字但不包括下划线等符号：^[\u4E00-\u9FA5A-Za-z0-9]+$ 或 ^[\u4E00-\u9FA5A-Za-z0-9]{2,20}$</p><p>\11. 可以输入含有^%&amp;’,;=?$&quot;等字符：[^%&amp;’,;=?$\x22]+ 12 禁止输入含有<del>的字符：[^</del>\x22]+</p><h2 id="三、特殊需求表达式"><a href="#三、特殊需求表达式" class="headerlink" title="三、特殊需求表达式"></a>三、特殊需求表达式</h2><p>\1. Email地址：^\w+([-+.]\w+)*@\w+([-.]\w+)<em>.\w+([-.]\w+)</em>$</p><p>\2. 域名：[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(/.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+/.?</p><p>\3. InternetURL：[a-zA-z]+://[^\s]* 或 ^http://([\w-]+.)+[\w-]+(/[\w-./?%&amp;=]*)?$</p><p>\4. 手机号码：^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$</p><p>\5. 电话号码(“XXX-XXXXXXX”、”XXXX-XXXXXXXX”、”XXX-XXXXXXX”、”XXX-XXXXXXXX”、”XXXXXXX”和”XXXXXXXX)：^((\d{3,4}-)|\d{3.4}-)?\d{7,8}$</p><p>\6. 国内电话号码(0511-4405222、021-87888822)：\d{3}-\d{8}|\d{4}-\d{7}</p><p>\7. 身份证号(15位、18位数字)：^\d{15}|\d{18}$</p><p>\8. 短身份证号码(数字、字母x结尾)：^([0-9]){7,18}(x|X)?$ 或 ^\d{8,18}|[0-9x]{8,18}|[0-9X]{8,18}?$</p><p>\9. 帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线)：^[a-zA-Z][a-zA-Z0-9_]{4,15}$</p><p>\10. 密码(以字母开头，长度在6~18之间，只能包含字母、数字和下划线)：^[a-zA-Z]\w{5,17}$</p><p>\11. 强密码(必须包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间)：^(?=.<em>\d)(?=.</em>[a-z])(?=.*[A-Z]).{8,10}$</p><p>\12. 日期格式：^\d{4}-\d{1,2}-\d{1,2}</p><p>\13. 一年的12个月(01～09和1～12)：^(0?[1-9]|1[0-2])$</p><p>\14. 一个月的31天(01～09和1～31)：^((0?[1-9])|((1|2)[0-9])|30|31)$</p><p>\15. 钱的输入格式：</p><p>\16. 1.有四种钱的表示形式我们可以接受:”10000.00” 和 “10,000.00”, 和没有 “分” 的 “10000” 和 “10,000”：^[1-9][0-9]*$</p><p>\17. 2.这表示任意一个不以0开头的数字,但是,这也意味着一个字符”0”不通过,所以我们采用下面的形式：^(0|[1-9][0-9]*)$</p><p>\18. 3.一个0或者一个不以0开头的数字.我们还可以允许开头有一个负号：^(0|-?[1-9][0-9]*)$</p><p>\19. 4.这表示一个0或者一个可能为负的开头不为0的数字.让用户以0开头好了.把负号的也去掉,因为钱总不能是负的吧.下面我们要加的是说明可能的小数部分：^[0-9]+(.[0-9]+)?$</p><p>\20. 5.必须说明的是,小数点后面至少应该有1位数,所以”10.”是不通过的,但是 “10” 和 “10.2” 是通过的：^[0-9]+(.[0-9]{2})?$</p><p>\21. 6.这样我们规定小数点后面必须有两位,如果你认为太苛刻了,可以这样：^[0-9]+(.[0-9]{1,2})?$</p><p>\22. 7.这样就允许用户只写一位小数.下面我们该考虑数字中的逗号了,我们可以这样：^[0-9]{1,3}(,[0-9]{3})*(.[0-9]{1,2})?$</p><p>23 8.1到3个数字,后面跟着任意个 逗号+3个数字,逗号成为可选,而不是必须：^([0-9]+|[0-9]{1,3}(,[0-9]{3})*)(.[0-9]{1,2})?$</p><p>\24. 备注：这就是最终结果了,别忘了”+”可以用”*”替代如果你觉得空字符串也可以接受的话(奇怪,为什么?)最后,别忘了在用函数时去掉去掉那个反斜杠,一般的错误都在这里</p><p>\25. xml文件：^([a-zA-Z]+-?)+[a-zA-Z0-9]+\.[x|X][m|M][l|L]$</p><p>\26. 中文字符的正则表达式：[\u4e00-\u9fa5]</p><p>\27. 双字节字符：[^\x00-\xff] (包括汉字在内，可以用来计算字符串的长度(一个双字节字符长度计2，ASCII字符计1))</p><p>\28. 空白行的正则表达式：\n\s*\r (可以用来删除空白行)</p><p>\29. HTML标记的正则表达式：&lt;(\S*?)[^&gt;]<em>&gt;.</em>?&lt;/\1&gt;|&lt;.*? /&gt; (网上流传的版本太糟糕，上面这个也仅仅能部分，对于复杂的嵌套标记依旧无能为力)</p><p>\30. 首尾空白字符的正则表达式：^\s*|\s*$或(^\s*)|(\s*$) (可以用来删除行首行尾的空白字符(包括空格、制表符、换页符等等)，非常有用的表达式)</p><p>\31. 腾讯QQ号：[1-9][0-9]{4,} (腾讯QQ号从10000开始)</p><p>\32. 中国邮政编码：[1-9]\d{5}(?!\d) (中国邮政编码为6位数字)</p><p>\33. IP地址：\d+.\d+.\d+.\d+ (提取IP地址时有用)</p><p>\34. IP地址：((?:(?:25[0-5]|2[0-4]\d|[01]?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d?\d))</p>]]></content>
       
       
-      <categories>
-          
-          <category> hexo1 </category>
-          
-      </categories>
+      
+        <tags>
+            
+            <tag> 正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo搭建blog</title>
+      <link href="2020/09/20/hexo%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+      <url>2020/09/20/hexo%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1.环境准备"></a>1.环境准备</h3><p>​    1.node.js(官网下载，直接下一步直到完成，使用命令node -v查看安装版本)</p><p>​    2.git（官网下载）</p><p>​    3.hexo(npm i hexo -g)</p><h3 id="2-生成blog项目"><a href="#2-生成blog项目" class="headerlink" title="2.生成blog项目"></a>2.生成blog项目</h3><p>​    1.创建空文件夹</p><p>​    2.选中该文件单机右键以powershell方式打开，执行命令hexo init初始化项目</p><p>​    3.执行hexo g生成项目</p><p>​    4.执行hexo s启动项目</p><h3 id="3-主题更换"><a href="#3-主题更换" class="headerlink" title="3.主题更换"></a>3.主题更换</h3><p>​    在themes文件下打开控制台执行 git clone <a href="https://github.com/blinkfox/hexo-theme-matery.git%EF%BC%88%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%B8%BB%E9%A2%98%E5%8F%AF%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%EF%BC%89">https://github.com/blinkfox/hexo-theme-matery.git（更多的主题可进入官网下载）</a></p><h3 id="4-文件创建"><a href="#4-文件创建" class="headerlink" title="4.文件创建"></a>4.文件创建</h3><p>​    每个主题下面都有多个界面，见面的显示需要配置对应的md文件进行显示</p><p>​    1.创建该文件</p><pre><code>hexo new page &quot;categories&quot;</code></pre><p>2.配置该文件</p><pre><code>title: &quot;分类&quot;date: 2020-09-13 17:06:27type: &quot;categories&quot;layout: &quot;categories&quot;</code></pre>]]></content>
+      
       
       
         <tags>
             
             <tag> hexo </tag>
             
-            <tag> others </tag>
+            <tag> 环境搭建 </tag>
             
         </tags>
       
