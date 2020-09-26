@@ -458,7 +458,87 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h5 id="浏览器不支持H5的解决办法"><a href="#浏览器不支持H5的解决办法" class="headerlink" title="浏览器不支持H5的解决办法"></a>浏览器不支持H5的解决办法</h5><p>通过一个JS的框架叫做html5media来实现</p>
+<h5 id="a标签锚点之一事项"><a href="#a标签锚点之一事项" class="headerlink" title="a标签锚点之一事项"></a>a标签锚点之一事项</h5><p>使用name作为锚点时标签必须是a标签，若过是id作为锚点则可以是任何标签</p>
+<h5 id="vide标签一些说明"><a href="#vide标签一些说明" class="headerlink" title="vide标签一些说明"></a>vide标签一些说明</h5><p>src: 用于告诉video标签需要播放的视频地址<br>autoplay: 用于告诉video标签是否需要自动播放视频<br>controls: 用于告诉video标签是否需要显示控制条<br>poster: 用于告诉video标签视频没有播放之前显示的占位图片<br>loop: 一般用于做广告视频, 用于告诉video标签视频播放完毕之后是否需要循环播放<br>preload: 预加载视频, 但是需要注意preload和autoplay相冲, 如果设置了autoplay属性, 那么preload属性就会失效<br>muted:静音<br>width/height: 和img标签中的一模一样</p>
+<p>每一家浏览器都只支持自己的video标签，于是w3c在H5中体统一种video的标注使用方法。</p>
+<h5 id="详细和概要标签"><a href="#详细和概要标签" class="headerlink" title="详细和概要标签"></a>详细和概要标签</h5><pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>details<span class="token operator">></span>
+    <span class="token operator">&lt;</span>summary<span class="token operator">></span>郑伊健<span class="token operator">&lt;</span><span class="token operator">/</span>summary<span class="token operator">></span>
+简介：郑伊健，<span class="token number">1967</span>年<span class="token number">10</span>月<span class="token number">4</span>日出生于中国香港，籍贯广东恩平，香港影视演员、流行男歌手。<span class="token number">1988</span>年参加新秀歌唱大赛加入无线电视，因拍摄“阳光柠檬茶”广告而入行，拜罗文为师。<span class="token number">1991</span>年<span class="token operator">...</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>details<span class="token operator">></span></code></pre>
+<h5 id="跑马灯标签"><a href="#跑马灯标签" class="headerlink" title="跑马灯标签"></a>跑马灯标签</h5><pre><code>&lt;!--
+1.什么是marquee标签?
+作用: 跑马灯
+
+格式:
+&lt;marquee&gt;内容&lt;/marquee&gt;
+
+属性:
+direction: 设置滚动方向 left/right/up/down
+scrollamount: 设置滚动速度, 值越大就越快
+loop: 设置滚动次数, 默认是-1, 也就是无限滚动
+behavior: 设置滚动类型 slide滚动到边界就停止, alternate滚动到边界就弹回
+
+注意点:
+marquee标签不是W3C推荐的标签, 在W3C官方文档中也无法查询这个标签, 但是各大浏览器对这个标签的支持非常好
+--&gt;</code></pre>
+<h5 id="字符实体"><a href="#字符实体" class="headerlink" title="字符实体"></a>字符实体</h5><p>2.什么是字符实体?<br>在HTML中有的字符是被HTML保留的, 有的HTML字符在HTML中是有特殊含义的, 是不能在浏览器中直接显示出来的, 那么这些东西要想显示出来就必须通过字符实体</p>
+<p>&nbsp; 空格, 一个&nbsp;就是一个空格, 有多少个&nbsp;就有多少个空格<br>&lt; 小于符号 &lt;<br>(less than)<br>&gt; 大于符号 &gt;<br>(greater than)<br>&copy; 版权符号<br>–&gt;</p>
+<h5 id="DOCTYP说明"><a href="#DOCTYP说明" class="headerlink" title="DOCTYP说明"></a>DOCTYP说明</h5><p>文档类型声明：分为严格模式和混杂模式，</p>
+<p>严格模式是以当前浏览器支持的最高标准惊醒页面渲染和js执行。</p>
+<p>混杂模式：向下兼容，主要用来兼容一些老版本的浏览器</p>
+<h5 id="css选择器说明"><a href="#css选择器说明" class="headerlink" title="css选择器说明"></a>css选择器说明</h5><h5 id="css属性继承"><a href="#css属性继承" class="headerlink" title="css属性继承"></a>css属性继承</h5><p>css在属性上一些样式会被子元素以及孙子元素所继承。</p>
+<ul>
+<li>colo/font-/,tetx-/line-/开头的元素</li>
+<li>a标签的颜色和下划线是不能够继承的</li>
+<li>h标签的文字大小不能够被继承</li>
+</ul>
+<p>CSS简写</p>
+<table>
+<thead>
+<tr>
+<th>简写</th>
+<th>额外说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>background: 背景颜色 背景图片 平铺方式 关联方式 定位方式;</td>
+<td>背景关联方式：background-attachment:  scroll 默认值， 会随着滚动条的滚动而滚动  fixed 不会随着滚动条的滚动而滚动</td>
+</tr>
+<tr>
+<td>transition: 过渡属性 过渡时长 运动速度 延迟时间;</td>
+<td>过度</td>
+</tr>
+<tr>
+<td>box-shadow: 水平偏移 垂直偏移 模糊度 阴影扩展 阴影颜色 内外阴影;</td>
+<td>盒子阴影，默认阴影为外阴影</td>
+</tr>
+<tr>
+<td>text-shadow: 水平偏移 垂直偏移 模糊度 阴影颜色</td>
+<td>文字阴影</td>
+</tr>
+<tr>
+<td>animation:动画名称 动画时长 动画运动速度 延迟时间 执行次数 往返动画;</td>
+<td>动画</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+
             </div>
             <hr/>
 
