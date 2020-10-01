@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="学习笔记">
+    <meta name="keywords" content="面试题1, 学习笔记">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>学习笔记</title>
+    <title>面试题1 | 学习笔记</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">面试题1</h1>
                 </div>
             </div>
         </div>
@@ -428,9 +428,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                <span class="chip bg-color">面试题</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -442,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-09-27
+                    2020-10-01
                 </div>
                 
 
@@ -458,212 +462,56 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h5 id="静态函数"><a href="#静态函数" class="headerlink" title="静态函数"></a>静态函数</h5><table>
-<thead>
-<tr>
-<th>静态函数</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>each</td>
-<td>遍历所有元素可遍历数组、伪数组、对象</td>
-</tr>
-<tr>
-<td>map</td>
-<td>和原生js使用相同，但原生只能遍历数组，该函数可遍历数组、伪数组、对象</td>
-</tr>
-<tr>
-<td>trim</td>
-<td>去除字符串两端的空格</td>
-</tr>
-<tr>
-<td>holdReady</td>
-<td>暂停ready执行</td>
-</tr>
-</tbody></table>
-<h5 id="jquery入口函数说明"><a href="#jquery入口函数说明" class="headerlink" title="jquery入口函数说明"></a>jquery入口函数说明</h5><ul>
-<li>原生js onload函数会在dom树加载完后并且所有的图片资源加载完成才会执行</li>
-<li>jquery入口函数ready在dom加载完成后就会执行</li>
-</ul>
-<h5 id="内容选择器"><a href="#内容选择器" class="headerlink" title="内容选择器"></a>内容选择器</h5><table>
-<thead>
-<tr>
-<th>选择器</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>$(“div:empty”)</td>
-<td>找到既没有文本内容也没有子元素的指定元素</td>
-</tr>
-<tr>
-<td>$(“div:parent”)</td>
-<td>找到有文本内容或有子元素的指定元素</td>
-</tr>
-<tr>
-<td>$(“div:contains(‘我是div’)”)</td>
-<td>找到包含指定文本内容的指定元素</td>
-</tr>
-<tr>
-<td>$(“div:has(‘span’)”)</td>
-<td>找到包含指定子元素的指定元素</td>
-</tr>
-</tbody></table>
-<h5 id="jquery方法"><a href="#jquery方法" class="headerlink" title="jquery方法"></a>jquery方法</h5><table>
-<thead>
-<tr>
-<th>方法</th>
-<th>功能</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>prop（）</td>
-<td>获取或改变属性值、属性节点值</td>
-<td></td>
-</tr>
-<tr>
-<td>removeProp（）</td>
-<td>移除属性</td>
-<td></td>
-</tr>
-<tr>
-<td>attr()</td>
-<td>获取属性节点值</td>
-<td></td>
-</tr>
-<tr>
-<td>removeAttr()</td>
-<td>移除属性</td>
-<td>prop()获取属性select、check、disable等属性节点时返回true OR false,attr返回selected……</td>
-</tr>
-<tr>
-<td>类操作方法</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>addClass()</td>
-<td>添加class</td>
-<td></td>
-</tr>
-<tr>
-<td>removeClass()</td>
-<td>移除class</td>
-<td></td>
-</tr>
-<tr>
-<td>toggleClass()</td>
-<td>添加或删除class</td>
-<td>若写入的参数为存在的class则去除该class,不存在就添加</td>
-</tr>
-<tr>
-<td>html()</td>
-<td>和原生innerHtml相同</td>
-<td></td>
-</tr>
-<tr>
-<td>text()</td>
-<td>和原生innerText相同</td>
-<td></td>
-</tr>
-<tr>
-<td>val()</td>
-<td>获取value的值</td>
-<td></td>
-</tr>
-<tr>
-<td>css()</td>
-<td>改变css样式</td>
-<td></td>
-</tr>
-<tr>
-<td>offset（）</td>
-<td>获取元素距离窗口的偏移位</td>
-<td>可以设置偏移</td>
-</tr>
-<tr>
-<td>position</td>
-<td>获取元素距离定位元素的偏移位</td>
-<td>position方法只能获取不能设置</td>
-</tr>
-<tr>
-<td>scrollTop</td>
-<td>获得滚动偏移</td>
-<td></td>
-</tr>
-<tr>
-<td>off()</td>
-<td>移除事件</td>
-<td>off方法如果不传递参数, 会移除所有的事件  \n off方法如果传递一个参数, 会移除所有指定类型的事件 \n  off方法如果传递两个参数, 会移除所有指定类型的指定事件</td>
-</tr>
-<tr>
-<td>trigger()</td>
-<td>主动触发事件</td>
-<td>会触发事件冒泡</td>
-</tr>
-<tr>
-<td>triggerHandler()</td>
-<td>主动触发事件</td>
-<td>不会触发事件冒泡</td>
-</tr>
-<tr>
-<td>delegate</td>
-<td>事件委托</td>
-<td></td>
-</tr>
-<tr>
-<td>mouseover</td>
-<td>移入</td>
-<td>触发父元素事件</td>
-</tr>
-<tr>
-<td>mouseout</td>
-<td>移出</td>
-<td>触发父元素事件</td>
-</tr>
-<tr>
-<td>mousleave</td>
-<td>移出</td>
-<td>不触发父元素事件</td>
-</tr>
-<tr>
-<td>mousenter</td>
-<td>移入</td>
-<td>不触发父元素事件</td>
-</tr>
-<tr>
-<td>remove([expr])</td>
-<td>删除指定元素</td>
-<td>利用remove删除之后再重新添加,原有的事件无法响应</td>
-</tr>
-<tr>
-<td>empty()</td>
-<td>删除指定元素的内容和子元素, 指定元素自身不会被删除</td>
-<td></td>
-</tr>
-<tr>
-<td>detach([expr])</td>
-<td></td>
-<td>利用detach删除之后再重新添加,原有事件可以响应</td>
-</tr>
-<tr>
-<td>replaceWith(content</td>
-<td></td>
-<td>$(“h1”).replaceWith($h6);</td>
-</tr>
-<tr>
-<td>replaceAll(selector)</td>
-<td></td>
-<td>$h6.replaceAll(“h1”)</td>
-</tr>
-<tr>
-<td>clone</td>
-<td>克隆元素</td>
-<td>false浅克隆 true 深克隆</td>
-</tr>
-</tbody></table>
+                <h4 id="一、总结"><a href="#一、总结" class="headerlink" title="一、总结"></a>一、总结</h4><p>本次面试题包括计算机基础，js原生、vue.其中计算机基础中计算机网络占据主导地位。</p>
+<h4 id="二、面试题"><a href="#二、面试题" class="headerlink" title="二、面试题"></a>二、面试题</h4><h5 id="1-1基础题"><a href="#1-1基础题" class="headerlink" title="1.1基础题"></a>1.1基础题</h5><ol>
+<li>计算机硬件结构包含几部分？软件结构呢？</li>
+<li>-256在计算机中如何存储？</li>
+<li>数据库的本质结构是什么？</li>
+<li>什么是TCP/IP协议？有什么优点？</li>
+<li>传输邮件的协议是什么？</li>
+<li>应你熟悉的语言实现生成1000个随机数，并从小到大排序</li>
+</ol>
+<h5 id="1-2选做题"><a href="#1-2选做题" class="headerlink" title="1.2选做题"></a>1.2选做题</h5><ol>
+<li>有100万张照片，像素是1920*1080。请问如何找出相似的100张图片</li>
+<li>将N个学生排列成一行，老师根据学生的表现进行打分，要求相邻最高分的学生获得的苹果数最多，每个学生至少获得一个。</li>
+</ol>
+<pre><code>输入：[1,0,2]
+输出：5</code></pre>
+<h5 id="1-3javascript基础"><a href="#1-3javascript基础" class="headerlink" title="1.3javascript基础"></a>1.3javascript基础</h5><ol>
+<li>常用的HTML5标签？</li>
+<li>块级元素有哪些？</li>
+<li>行级元素有哪些？</li>
+<li>哪些属性可以继承？</li>
+<li>local Storage和cookies以及session storage的区别</li>
+<li>HTTP的作用是什么？HTTP和HTTPS的区别是什么？</li>
+<li>什么事实闭包？</li>
+<li>在url上输入一个地址到渲染出界面经过了怎样的过程？</li>
+<li>实现数组去重</li>
+<li>使用三种方法实现垂直水平居中</li>
+<li>获取两个数组的交集、并集以及差集</li>
+<li>匿名函数和声明函数的区别</li>
+<li>什么是回掉函数</li>
+<li>promise是异步执行的么？then呢？</li>
+<li>清除浮动的方法？为什么要清除浮动？</li>
+<li>什么是伸缩布局？应用在哪些场景</li>
+<li>position的属性值有哪些？</li>
+<li>什么是跨域？如何解决跨域？</li>
+<li>状态码有哪些？具体的意义有什么？</li>
+<li>什么是盒子模型?</li>
+</ol>
+<h5 id="1-4vue基础"><a href="#1-4vue基础" class="headerlink" title="1.4vue基础"></a>1.4vue基础</h5><ol>
+<li>vue的生命周期函数</li>
+<li>v-show和v-if的区别</li>
+<li>vue-router的原理</li>
+<li>v-if和v-for的优先级</li>
+<li>solt是什么？有什么作用？</li>
+<li>实现一个vue递归组件</li>
+<li>vuex是什么？有什么用</li>
+<li>简述mvvm模型</li>
+<li>foreach、for……in……、for……of……的区别</li>
+<li>let、const、var的区别</li>
+</ol>
+<h5 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h5><p>​    很多东西不熟悉，在面试时频频出错，学习是不要贪多，应要理解，所有的框架都源于原生，打好原生基础在今后的学习中会有很大的进步。企业中有有很多新型的技术不会有老师系统的讲解，需要建立一套字节的学习方法，以上是第一次面试。</p>
 
             </div>
             <hr/>
@@ -689,7 +537,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://Goldenlegendss.github.io/2020/09/27/jquery%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/">https://Goldenlegendss.github.io/2020/09/27/jquery%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/</a>
+                    <a href="https://Goldenlegendss.github.io/2020/10/01/%E9%9D%A2%E8%AF%95%E9%A2%981/">https://Goldenlegendss.github.io/2020/10/01/%E9%9D%A2%E8%AF%95%E9%A2%981/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -726,7 +574,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                    <span class="chip bg-color">面试题</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -892,9 +744,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/10/01/%E9%9D%A2%E8%AF%95%E9%A2%981/">
                     <div class="card-image">
@@ -912,9 +765,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-01
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -923,6 +776,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -941,13 +795,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/09/25/css%E9%80%89%E6%8B%A9%E5%99%A8/">
+                <a href="/2020/09/27/jquery%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="css选择器">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">css选择器</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -958,7 +812,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-27
                             </span>
                         <span class="publish-author">
                             
@@ -967,14 +821,6 @@
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/CSS/">
-                        <span class="chip bg-color">CSS</span>
-                    </a>
-                    
                 </div>
                 
             </div>
