@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="面试1答案, 学习笔记">
+    <meta name="keywords" content="node_require, 学习笔记">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>面试1答案 | 学习笔记</title>
+    <title>node_require | 学习笔记</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">面试1答案</h1>
+                    <h1 class="description center-align post-title">node_require</h1>
                 </div>
             </div>
         </div>
@@ -430,8 +430,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%9D%A2%E8%AF%95/">
-                                <span class="chip bg-color">面试</span>
+                            <a href="/tags/Node/">
+                                <span class="chip bg-color">Node</span>
                             </a>
                         
                     </div>
@@ -446,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-10-03
+                    2021-01-05
                 </div>
                 
 
@@ -462,201 +462,99 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h5 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h5><h5 id="1-1基础题"><a href="#1-1基础题" class="headerlink" title="1.1基础题"></a>1.1基础题</h5><ol>
-<li><h6 id="计算机硬件结构包含几部分？软件结构呢？"><a href="#计算机硬件结构包含几部分？软件结构呢？" class="headerlink" title="计算机硬件结构包含几部分？软件结构呢？"></a>计算机硬件结构包含几部分？软件结构呢？</h6><p>计算机硬件一般包括计算器、控制器、存储器、输入设备、输出设备</p>
-<p>中央处理器（cpu）=计算器+控制器</p>
-<p>主机=中央处理器+主存储设备</p>
-<p>计算机软件系统由系统软件和应用软件组成<br>系统软件：1.操作系统   2.语言处理系统  3.数据库管理系统<br>应用软件：指的是为解决某个应用领域中的具体任务而编制的程序</p>
-</li>
-<li><p>-256在计算机中如何存储？</p>
-<p>在计算机中数字是以补码的形式存储，补码对于正整数而言就是他的源码，对于负整数就是除符号为外的所有二进制数取反+1.</p>
-<p>小数的存储形式：flaot:32 =符号位(1)+指数位(8)+底数(23)</p>
-<p>​                                double64:=符号位(1)+指数位(13)+底数(52)</p>
-</li>
-<li><p>数据库的本质是什么？</p>
-<p>一张二位表</p>
-</li>
-<li><p>什么是TCP/IP协议？有什么优点？</p>
-<p>TCP/IP协议是网络控制协议/英特网互联协议，是各种协议的集合体。有以下四个特点：</p>
-<p>​    1.协议标准是完全开放的，并且独立于特定的计算机硬件和操作系统</p>
-<p>​    2.独立于网络硬件系统，可运用于广域网，更适用于互联网</p>
-<p>​    3.网络地址统一分配，网络中的每一台主机以及终端都具有唯一的ip地址</p>
-<p>​    4.高成协议标准化，可提供多种多样的网络服务。</p>
-</li>
-<li><p>传输邮件的协议是什么？</p>
-<p>SMTP</p>
-</li>
-<li><p>应你熟悉的语言实现生成1000个随机数，并从小到大排序</p>
-</li>
-</ol>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> arr<span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">1000</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
-            arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">*</span><span class="token number">10</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> vm <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'vm'</span><span class="token punctuation">)</span>
+<span class="token keyword">function</span> <span class="token function">Module</span><span class="token punctuation">(</span>id<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+Module<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>load <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> extName <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">extname</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    Module<span class="token punctuation">.</span>extensions<span class="token punctuation">[</span>extName<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">req</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    absPath <span class="token operator">=</span> req<span class="token punctuation">.</span><span class="token function">resolveFilename</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>Module<span class="token punctuation">.</span>_cache<span class="token punctuation">[</span>absPath<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> Module<span class="token punctuation">.</span>_cache<span class="token punctuation">[</span>absPath<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//从缓存中返回对象</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> current <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Module</span><span class="token punctuation">(</span>absPath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    current<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    Module<span class="token punctuation">.</span>_cache<span class="token punctuation">[</span>absPath<span class="token punctuation">]</span> <span class="token operator">=</span> current<span class="token punctuation">.</span>exports<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> current<span class="token punctuation">.</span>exports<span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+req<span class="token punctuation">.</span>resolveFilename <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>filename<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//路径解析</span>
+    <span class="token keyword">let</span> absPath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> filename<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> current<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">existsSync</span><span class="token punctuation">(</span>absPath<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        current <span class="token operator">=</span> absPath<span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span> <span class="token keyword">else</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> keys <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>Module<span class="token punctuation">.</span>extensions<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> keys<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">existsSync</span><span class="token punctuation">(</span>absPath <span class="token operator">+</span> keys<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+                current <span class="token operator">=</span> absPath <span class="token operator">+</span> keys<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
         <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
-        arr<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>pre<span class="token punctuation">,</span>next<span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
-            <span class="token keyword">return</span> pre<span class="token operator">-</span>next<span class="token punctuation">;</span>
-        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<ol start="7">
-<li><p>一个程序通过什么步骤可以运行</p>
-<p>c语言</p>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>current<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">throw</span> <span class="token function">Error</span><span class="token punctuation">(</span><span class="token string">"该文件不存在"</span><span class="token punctuation">)</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> current
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+Module<span class="token punctuation">.</span>extensions <span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token string">".json"</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>module<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> json <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>module<span class="token punctuation">.</span>id<span class="token punctuation">,</span> <span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        module<span class="token punctuation">.</span>exports <span class="token operator">=</span> JSON<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>json<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+    <span class="token string">".js"</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>module<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> script <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>module<span class="token punctuation">.</span>id<span class="token punctuation">,</span> <span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> fnStr <span class="token operator">=</span> Module<span class="token punctuation">.</span>warpper<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">+</span> script <span class="token operator">+</span> Module<span class="token punctuation">.</span>warpper<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> fn <span class="token operator">=</span> vm<span class="token punctuation">.</span><span class="token function">runInThisContext</span><span class="token punctuation">(</span>fnStr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fn<span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>module<span class="token punctuation">.</span>exports<span class="token punctuation">,</span> module<span class="token punctuation">,</span> module<span class="token punctuation">.</span>exports<span class="token punctuation">,</span> module<span class="token punctuation">.</span>id<span class="token punctuation">,</span> path<span class="token punctuation">.</span><span class="token function">dirname</span><span class="token punctuation">(</span>module<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+Module<span class="token punctuation">.</span>warpper <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'(function(module,exports,_filename,_dirname)&amp;#123;'</span><span class="token punctuation">,</span>
+    <span class="token string">'&amp;#125;)'</span><span class="token punctuation">]</span>
+Module<span class="token punctuation">.</span>_cache <span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">;</span>
+<span class="token function">req</span><span class="token punctuation">(</span><span class="token string">"a.js"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">req</span><span class="token punctuation">(</span><span class="token string">"a.js"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">/*
+req模块
+    传入相对路径=》绝对路径
+    后缀名分析（先进行原路径解析=》添加json后缀解析=》添加js后缀解析）
+    实例化Module,调用load方法
+    load:判断文件后后缀名调用对应的函数
+
+
+*/</span></code></pre>
 <ol>
-<li>编辑</li>
-<li>编译</li>
-<li>链接</li>
-<li>生成可执行文件</li>
-</ol>
+<li><p>node .js 中内置有fs,vm,require等模块。</p>
+</li>
+<li><p>node端全局文件里的this指向moudle.exports</p>
+</li>
+<li><p>node端不存在window对象，可以访问golobal对象</p>
+<p>Object [global] {<br>  global: [Circular],<br>  clearInterval: [Function: clearInterval],<br>  clearTimeout: [Function: clearTimeout],<br>  setInterval: [Function: setInterval],<br>  setTimeout: [Function: setTimeout] {</p>
 </li>
 </ol>
-<h5 id="1-2选做题"><a href="#1-2选做题" class="headerlink" title="1.2选做题"></a>1.2选做题</h5><ol>
-<li>有100万张照片，像素是1920*1080。请问如何找出相似的100张图片</li>
-<li>将N个学生排列成一行，老师根据学生的表现进行打分，要求相邻最高分的学生获得的苹果数最多，每个学生至少获得一个。</li>
-</ol>
-<pre><code>输入：[1,0,2]
-输出：5
- function fn(scoreArr) &#123;
-        var counterArr = [];//存储分配苹果数
-        var result;
-        for (var i = 1; i &lt; scoreArr.length; i++) &#123;
-            if (scoreArr[i] &gt; scoreArr[i - 1]) &#123;//两两比较，后者大于前者，在前者基础上+1
-                if (i == 1) &#123;
-                    counterArr[i] = 2;
-                    counterArr[i - 1] = 1;
-
-                &#125; else &#123;
-                    counterArr[i] = counterArr[i - 1] + 1;
-                &#125;
-
-
-            &#125;
-            if (scoreArr[i] &lt; scoreArr[i - 1]) &#123;\\前者大于后者（该分配的对象），判断若前者的counterArr值是否为1,若为1折将所有大于后者的数+1，接着后者（该分配的对象）置于1.
-                if (i == 1) &#123;
-                    counterArr[i] = 1;
-                    counterArr[i - 1] = 2;
-
-                &#125; else if (counterArr[i - 1] == 1) &#123;
-                    counterArr[i - 1]++;
-                    for (var j = 0; j &lt; counterArr.length - 1; j++) &#123;
-                        console.log(j)
-                        if (scoreArr[j] &gt; scoreArr[j + 1] &amp;&amp; j &lt; counterArr.length - 1) &#123;
-                            counterArr[j]++;
-                        &#125;
-
-                    &#125;
-
-                &#125;
-                counterArr[counterArr.length] = 1;
-            &#125;
-            if (scoreArr[i] == scoreArr[i - 1]) &#123;
-                if (i == 1) &#123;
-                    counterArr[i] = 1;
-                    counterArr[i - 1] = 1;
-
-                &#125; else &#123;
-
-                    counterArr[i] = counterArr[i - 1];
-                &#125;
-            &#125;
-
-        &#125;
-       result = counterArr.reduce(function(prevalue,item)&#123;//计算累计数
-            return prevalue+item;
-        &#125;)
-        return result;
-    &#125;</code></pre>
-<h5 id="1-3javascript基础"><a href="#1-3javascript基础" class="headerlink" title="1.3javascript基础"></a>1.3javascript基础</h5><ol>
-<li>常用的HTML5标签？</li>
-<li>块级元素有哪些？</li>
-<li>行级元素有哪些？</li>
-<li>哪些属性可以继承？</li>
-</ol>
-<ul>
-<li>color/font-/,text-/line-/开头的元素</li>
-<li>a标签的颜色和下划线是不能够继承的</li>
-<li>h标签的文字大小不能够被继承</li>
-</ul>
-<ol>
-<li><p>local Storage和cookies以及session storage的区别</p>
-<p>共同点：都是保存在浏览器端、且同源的<br>区别：<br>1、cookie数据始终在同源的http请求中携带（即使不需要），即cookie在浏览器和服务器间来回传递，而sessionStorage和localStorage不会自动把数据发送给服务器，仅在本地保存。cookie数据还有路径（path）的概念，可以限制cookie只属于某个路径下<br>2、存储大小限制也不同，cookie数据不能超过4K，同时因为每次http请求都会携带cookie、所以cookie只适合保存很小的数据，如会话标识。sessionStorage和localStorage虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大<br>3、数据有效期不同，sessionStorage：仅在当前浏览器窗口关闭之前有效；localStorage：始终有效，窗口或浏览器关闭也一直保存，因此用作持久数据；cookie：只在设置的cookie过期时间之前有效，即使窗口关闭或浏览器关闭<br>4、作用域不同，sessionStorage不在不同的浏览器窗口中共享，即使是同一个页面；localstorage在所有同源窗口中都是共享的；cookie也是在所有同源窗口中都是共享的<br>5、web Storage支持事件通知机制，可以将数据更新的通知发送给监听者<br>6、web Storage的api接口使用更方便</p>
+<pre><code> &#125;,
+ queueMicrotask: [Function: queueMicrotask],
+ clearImmediate: [Function: clearImmediate],
+ setImmediate: [Function: setImmediate] &#123;</code></pre>
+<pre><code> &#125;</code></pre>
+<p>   }</p>
+<ol start="4">
+<li><p>获取去命令行参数 process.argv.slice(2)</p>
 </li>
-<li><p>HTTP的作用是什么？HTTP和HTTPS的区别是什么？</p>
+<li><p>process.cwd()获取当前文件绝对路径</p>
 </li>
-<li><p>什么事实闭包？</p>
+<li><p>commander 命令行管家</p>
 </li>
-<li><p>在url上输入一个地址到渲染出界面经过了怎样的过程？</p>
-<p>DNS域名解析——》建立TCP链接——》发送请求报文——》发送响应报文——》断开连接——》界面渲染</p>
+<li><p>chalk 粉笔工具，是命令行显示拥有颜色</p>
 </li>
-<li><p>实现数组去重</p>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> Array<span class="token punctuation">.</span><span class="token function">form</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">set</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span></code></pre>
-</li>
-</ol>
-<ol start="6">
-<li>使用三种方法实现垂直水平居中</li>
-</ol>
-<ol start="7">
-<li>获取两个数组的交集、并集以及差集</li>
-</ol>
-<ol>
-<li><p>匿名函数和声明函数的区别</p>
-<p>匿名函数立即执行，声明函数需要自己调用</p>
-</li>
-<li><p>什么是回调函数</p>
-<p>将函数作为参数传递给函数</p>
-</li>
-<li><p>promise是异步执行的么？then呢？</p>
-<p>promise是同步，then是异步</p>
-</li>
-<li><p>清除浮动的方法？为什么要清除浮动？</p>
-<p>创建BFC元素，一般使用</p>
-<p>.clear:after{</p>
-<p>height:0;</p>
-<p>content: “”;</p>
-<p>display:block;//将文本转为块级元素</p>
-<p>visibility:hidden;</p>
-<p>clear:both;</p>
-<p>}</p>
-</li>
-<li><p>什么是伸缩布局？应用在哪些场景</p>
-<p>伸缩布局及弹性布局</p>
-</li>
-<li><p>position的属性值有哪些？</p>
-<p>absolute、realitive、fixed、static</p>
-</li>
-<li><p>什么是跨域？如何解决跨域？</p>
-<p>向不同域的网站发送http请求叫做跨域。这是浏览器的同源政策。可以通过JSONP和设置代理解决</p>
-</li>
-<li><p>状态码有哪些？具体的意义有什么？</p>
-<p>304：请求资源未更新</p>
-<p>200：请求成功</p>
-<p>404：未找到</p>
-<p>400：请求错误</p>
-</li>
-<li><p>什么是盒子模型?</p>
-</li>
-</ol>
-<h5 id="1-4vue基础"><a href="#1-4vue基础" class="headerlink" title="1.4vue基础"></a>1.4vue基础</h5><ol>
-<li><p>vue的生命周期函数</p>
-</li>
-<li><p>v-show和v-if的区别</p>
-</li>
-<li><p>vue-router的原理</p>
-</li>
-<li><p>v-if和v-for的优先级</p>
-<p>：v-for比v-if优先</p>
-</li>
-<li><p>solt是什么？有什么作用？</p>
-</li>
-<li><p>实现一个vue递归组件</p>
-</li>
-<li><p>vuex是什么？有什么用</p>
-</li>
-<li><p>简述mvvm模型</p>
-</li>
-<li><p>foreach、for……in……、for……of……的区别</p>
-</li>
-<li><p>let、const、var的区别</p>
+<li><p>事件循环机制，主线任务=&gt;timer队列=》pool队列(I/0操作，文件操作)=》setImmediate队列，每次宏任务执行都清空微任务列表，settimeout,setInterval,文件读取，setImmediate都是宏任务 ，promise.then,nextick(优先级高于then)是微任务，</p>
 </li>
 </ol>
 
@@ -684,7 +582,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://Goldenlegendss.github.io/2020/10/03/%E9%9D%A2%E8%AF%951%E7%AD%94%E6%A1%88/">https://Goldenlegendss.github.io/2020/10/03/%E9%9D%A2%E8%AF%951%E7%AD%94%E6%A1%88/</a>
+                    <a href="https://Goldenlegendss.github.io/2021/01/05/node-require/">https://Goldenlegendss.github.io/2021/01/05/node-require/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -722,8 +620,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%9D%A2%E8%AF%95/">
-                                    <span class="chip bg-color">面试</span>
+                                <a href="/tags/Node/">
+                                    <span class="chip bg-color">Node</span>
                                 </a>
                             
                         </div>
@@ -891,9 +789,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/01/05/node-require/">
                     <div class="card-image">
@@ -911,9 +810,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-05
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -922,6 +821,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -940,13 +840,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/10/01/%E9%9D%A2%E8%AF%95%E9%A2%981/">
+                <a href="/2020/10/03/%E9%9D%A2%E8%AF%951%E7%AD%94%E6%A1%88/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="面试题1">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="面试1答案">
                         
-                        <span class="card-title">面试题1</span>
+                        <span class="card-title">面试1答案</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -957,7 +857,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-03
                             </span>
                         <span class="publish-author">
                             
@@ -970,8 +870,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                        <span class="chip bg-color">面试题</span>
+                    <a href="/tags/%E9%9D%A2%E8%AF%95/">
+                        <span class="chip bg-color">面试</span>
                     </a>
                     
                 </div>
